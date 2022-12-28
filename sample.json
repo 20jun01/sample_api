@@ -1,0 +1,18 @@
+{"business_status": "OPERATIONAL", 
+ "geometry": 
+	{"location":
+		 {"lat": 35.696054, "lng": 139.764101}, 
+	"viewport":
+		 {"northeast":
+			 {"lat": 35.69746217989272, "lng": 139.7654359298927}, 
+			"southwest": {"lat": 35.69476252010727, "lng": 139.7627362701073}
+			}
+		},
+	"icon":"https://maps.gstatic.com/mapfiles/place_api/icons/v1/png_71/restaurant-71.png",
+    "icon_background_color": "#FF9E67",
+    "icon_mask_base_uri":"https://maps.gstatic.com/mapfiles/place_api/icons/v2/restaurant_pinlet",
+	"name": "カレーライス ディラン",
+    "opening_hours": {"open_now": False},
+    "photos": [{"height": 3492, "html_attributions": ["<a href=\"https://maps.google.com/maps/contrib/111420659287642606107\">A Google User</a>"],
+    "photo_reference": "ARywPAI3VZSny8ctY60nsU549MX6EA6QV5ABbN51x25hYSehumL7vXlSMYqjVbk7LoIzn6VUyXC2KyPYfesWrrjVp4beYX9hse0YfOi0y9NrkFN_UntcbiZvfH7iB3lbfQ8cNz5NavMjNP-6OfCP6-GJgmdsYPJVWRN5Gde10oNvVRcbgiGC", "width": 4656}],
+    "place_id": "ChIJRX-B7RqMGGARuj7WdGn3OvQ", "plus_code": {"compound_code": "MQW7+CJ 千代田区、東京都", "global_code": "8Q7XMQW7+CJ"}, "price_level": 2, "rating": 4, "reference": "ChIJRX-B7RqMGGARuj7WdGn3OvQ", "scope": "GOOGLE", "types": ["restaurant", "food", "point_of_interest", "establishment"], "user_ratings_total": 212, "vicinity": "千代田区神田駿河台３丁目３−３"}
