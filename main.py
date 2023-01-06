@@ -48,6 +48,7 @@ async def root():
 
 @app.post("/map", response_model=MapResponse)
 async def read_item(request: MapRequest):
+    random.seed()
     keyword = ""
     location = ""
     radius = str(request.radius)
