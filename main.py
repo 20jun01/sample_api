@@ -53,8 +53,10 @@ async def read_item(request: MapRequest):
     location = ""
     radius = str(request.radius)
     api_key = os.environ.get('GOOGLE_MAP_API_KEY')
-    if request.keywords:
+    if not (request.keywords == [""]):
         keyword = "OR".join(request.keywords)
+    else:
+        keyword = "カフェ"
     if type(request.location) == str:
         location += str(request.location)
     else:
