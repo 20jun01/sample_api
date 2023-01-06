@@ -27,8 +27,6 @@ class MapResponse(BaseModel):
 app = FastAPI()
 
 origins = [
-    "http://localhost:8080",
-    "http://localhost:8080/",
     "https://sample-front-weld.vercel.app",
 ]
 
