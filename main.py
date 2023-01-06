@@ -1,6 +1,7 @@
 import random
 from typing import Union, Optional
 from fastapi import FastAPI, HTTPException
+from fastapi.middleware.cors import CORSMiddleware
 from uuid import UUID, uuid4
 from pydantic import BaseModel
 from enum import Enum
@@ -24,6 +25,20 @@ class MapResponse(BaseModel):
 
 
 app = FastAPI()
+
+origins = [
+    "http://localhost:8080",
+    "http://localhost:8080/",
+    "https://sample-front-weld.vercel.app/",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=['*'],
+    allow_headers=['*']
+)
 
 
 @app.get("/health")
