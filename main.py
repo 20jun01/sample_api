@@ -28,6 +28,7 @@ app = FastAPI()
 
 origins = [
     "https://sample-front-weld.vercel.app",
+    "https://sample-front-nmyv57y1w-20jun01.vercel.app/",
 ]
 
 app.add_middleware(
